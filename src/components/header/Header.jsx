@@ -1,9 +1,11 @@
 import React from 'react'
 import './header.css'
+
 const Header = () => {
   return (
     <div className='header'>
-<h1>HAPPY 25years EUNIAN & JOAN</h1>
+    
+<h1>Happy 25years Anniversary EUNIAN & JOAN</h1>
 
     </div>
   )

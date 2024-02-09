@@ -1,5 +1,6 @@
 .home{
     height: 100vh;
+    font-size: 1.4rem;
 
 }
 .section{
@@ -25,19 +26,68 @@
     align-items: center;
 }
 
+hr{
+    background-color: black;
+    height: 5px;
+    width: 20%;
+    background-color: purple;
+    border: none;
+    box-shadow: 2px 10px 10px 1px;
+
+}
+
+.section h1{
+    font-size: 4rem;
+}
 
 
 
+/* section zero */
+.zero{
+    background-color: rgba(224, 217, 217, 0.205);
+}
+.pImg{
+    width: 70%;
+}
 
+.zerotext{
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+ 
 
+}
+
+.textdesc{
+    width: 100%;
+    height: 70%;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 1.2rem;
+    box-shadow: 2px 10px 10px 1px rgba(128, 0, 128, 0.432);
+}
 
 
 /* section one */
 .one{
-    background-color: rgba(255, 230, 0, 0.301);
+    background-color: rgba(192, 192, 192, 0.342);
+    box-shadow: 2px 4px 30px 1px black;
 }
 .dadImg{
     width: 60%;
+}
+.sectiononeHead hr{
+    background-color: rgb(223, 195, 41);
+}
+.sectionsubHead{
+    margin-top: 10px;
+}
+.one .textdesc{
+    box-shadow: 2px 4px 20px 2px rgb(223, 195, 41);
+
 }
 
 
@@ -45,14 +95,24 @@
 
 /* section two */
 .two{
-    background-color: rgba(255, 145, 0, 0.596);
+    background-color: white;
+    box-shadow: 10px 10px 30px 5px black;
+
 }
 .mumImg{
     width: 60%;
 }
 
+.two hr{
+    background-color: rgb(219, 119, 135);
+}
 
-/* section Time */
+.two .textdesc{
+    box-shadow: 2px 4px 20px 2px rgb(219, 119, 135);
+
+}
+
+/* section Three */
 .three{
     background-image: url(../images/001bg.png) ;
     min-height: 100%;
@@ -67,21 +127,67 @@
     width: 70%;
     height: 70%;
     background-color: rgba(128, 0, 128, 0.76);
-    border-radius: 150px;
-    box-shadow: 4px 20px 30px 10px black;
+    border-radius: 50px;
+    box-shadow: 4px 10px 30px 5px black;
+    font-size: 1.2rem;
+
+    
+}
+
+.sectionthreeHead{
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+
+}
+
+.sectionthreeHead hr{
+    background-color: gold;
+    width: 10%;
+}
+
+.sectionthreeDesc{
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+    height: 80%;
+
+
 }
 
 
 
+/* section 4 */
+
+.four{
+    background-color: black;
+}
+.childrenImg{
+    width: 70%;
+}
+
+.rightwrapper{
+    width: 100%;
+    height: 70%;
+    background-color: silver;
+    border-radius: 150px 0 0 150px;
+    overflow-y: scroll;
+}
+.fourdesc{
+    overflow-y: scroll;
+
+}
 
 
-
-@media screen and (max-width: 700px) {
-    .section{
-        flex-direction: column;
+@media screen and (max-width: 900px) {
+    .home{
+        font-size: 1.2rem;
+    }
+    .two{
+        height: 120%;
     }
 
-    .left{
+        .left{
         width: 100%;
         height: 70%;
     }
@@ -89,6 +195,53 @@
         width: 100%;
         height: 70%;
     }
+    .sectionText{
+        width: 90%;
+        border-radius: 50px;
+        height: 80%;
+    }
+    .zerotext{
+        height: 100%;
+        width: 90%;
+    }
+    .textdesc{
+        font-size: 1.2rem;
+        overflow-y: scroll;
+        
+    }
+
+    .sectionthreeDesc{
+        height: 80%;
+        overflow-y: scroll;
+    }
+
+    .section h1{
+        font-size: 2rem;
+    }
+    .childrenImg{
+        width: 90%;
+    }
+
+    .four{
+        height: 120vh;
+    }
+
+    .rightwrapper{
+        height: 90%;
+    }
+    .fourdesc{
+        overflow-y: scroll;
+
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .section{
+        flex-direction: column;
+    }
+
+
 
     .dadImg{
         width: 80%;
@@ -96,4 +249,36 @@
     .mumImg{
         width: 80%;
     }
+    .sectionText{
+        width: 90%;
+        height: 70%;
+        border-radius: 50px;
+        box-shadow: 2px 10px 40px 5px black;
+    }
+    
+    .zerotext{
+        height: 100%;
+        width: 90%;
+    }
+    .textdesc{
+        font-size: 1.2rem;
+        overflow-y: scroll;
+        
+    }
+    .sectionthreeDesc{
+        height: 80%;
+        overflow-y: scroll;
+    }
+
+    h1{
+        font-size: 1.6rem;
+    }
+    .rightwrapper{
+        border-radius: 0;
+        width: 90%;
+        height: 90%;
+    }
+
 }
+
+
