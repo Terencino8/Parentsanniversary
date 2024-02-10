@@ -207,6 +207,7 @@ hr{
     overflow-y: scroll;
     text-align: justify;
     padding: 20px;
+    font-size: 1.2rem;
 
 }
 
@@ -309,6 +310,10 @@ hr{
 
     .footer{
         height: 5%;
+    }
+    h1{
+       font-size: 1.2rem
+       ; 
     }
 }
 

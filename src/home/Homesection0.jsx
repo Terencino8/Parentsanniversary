@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './home.css'
 import pImg from '../images/image 1.png'
-// import {ReactComponent as Svg1} from "../images/Svg1.svg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Homesection0 = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    })
+  }, [])
   return (
     <div className='section zero'>
-    <div className="left">
+    <div className="left" data-aos="fade-right">
     <img src={pImg} alt="" className='pImg'/>
 
     </div>
-    <div className="right">
+    <div className="right" data-aos="fade-left">
       <div className="zerotext">
           <h1>Gratitude <hr /></h1>
           <p className="textdesc">

@@ -11,7 +11,7 @@ const Splash = () => {
 
 
     <Link to="/home">
-        <button className='splashBtn'>About Us</button>
+        <button className='splashBtn'>Toast</button>
 
     </Link>
 

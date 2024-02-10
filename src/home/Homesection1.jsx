@@ -1,15 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './home.css'
 import dad from '../images/dad.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Homesection1 = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    })
+  }, [])
   return (
     <div className='section one'>
-      <div className="left">
+      <div className="left" data-aos="fade-right">
       <img src={dad} alt=""  className='dadImg'/>
 
       </div>
-      <div className="right">
+      <div className="right" data-aos="fade-left">
 
       <div className="zerotext">
         <div className="sectiononeHead">

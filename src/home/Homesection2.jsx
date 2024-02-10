@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import mum from '../images/mum.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Homesection2 = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    })
+  }, [])
   return (
     <div className='section two'>
-      <div className="left">
+      <div className="left" data-aos="fade-right">
       <div className="zerotext">
         <div className="sectiononeHead">
           <h1>My Mum <hr /></h1>
@@ -30,7 +37,7 @@ const Homesection2 = () => {
         </div>
 
       </div>
-      <div className="right">
+      <div className="right" data-aos="fade-left">
       <img src={mum} alt="" className='mumImg'/>
         
       </div>

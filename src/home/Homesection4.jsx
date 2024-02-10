@@ -1,15 +1,24 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './home.css'
 import childrenImg from "../images/children.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// import { useEffect } from 'react'
 
 const Homesection4 = () => {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    })
+  }, [])
   return (
     <div className='section four'>
-        <div className="left">
+        <div className="left"  data-aos="fade-right">
         <img src={childrenImg} alt=""  className='childrenImg'/>
 
         </div>
-        <div className="right">
+        <div className="right"  data-aos="fade-left">
           <div className="rightwrapper">
           <h1 className="fourhead">
             From Your Children 
@@ -34,7 +43,7 @@ const Homesection4 = () => {
               <br />
               Terence
               <br />
-              Felicitas
+              Felicitas 
               <br />
               Dominic 
               <br />

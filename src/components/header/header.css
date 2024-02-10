@@ -13,6 +13,7 @@
     left: 15%;
     font-family: 'Rubik Glitch Pop', system-ui;
     font-size: 1.4rem;
+    z-index: 999;
 
     
 }
