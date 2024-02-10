@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .home{
     height: 100vh;
     font-size: 1.4rem;
@@ -68,6 +74,8 @@ hr{
     padding: 15px;
     font-size: 1.2rem;
     box-shadow: 2px 10px 10px 1px rgba(128, 0, 128, 0.432);
+    overflow-y: scroll;
+
 }
 
 
@@ -112,6 +120,14 @@ hr{
 
 }
 
+
+
+
+
+
+
+
+
 /* section Three */
 .three{
     background-image: url(../images/001bg.png) ;
@@ -151,9 +167,14 @@ hr{
     text-align: center;
     color: white;
     height: 80%;
+    overflow-y: scroll;
+
 
 
 }
+
+
+
 
 
 
@@ -170,43 +191,87 @@ hr{
     width: 100%;
     height: 70%;
     background-color: silver;
-    border-radius: 150px 0 0 150px;
-    overflow-y: scroll;
-}
-.fourdesc{
-    overflow-y: scroll;
+    border-radius: 30px 0 0 30px;
+
 
 }
+.fourhead{
+    width: 100%;
+    padding: 20px;
+    font-size: 1.6rem;
+}
+
+.fourdesc{
+    height: 80%;
+    width: 100%;
+    overflow-y: scroll;
+    text-align: justify;
+    padding: 20px;
+
+}
+
+.fourhead hr{
+    background-color: aliceblue;
+}
+
+
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color: silver;
+}
+
+
+
 
 
 @media screen and (max-width: 900px) {
     .home{
         font-size: 1.2rem;
     }
-    .two{
-        height: 120%;
-    }
+    
 
         .left{
         width: 100%;
-        height: 70%;
+        height: 50%;
     }
     .right{
         width: 100%;
-        height: 70%;
+        height: 50%;
+    }
+    .section{
+        height: 120vh;
     }
     .sectionText{
-        width: 90%;
+        width: 100%;
         border-radius: 50px;
         height: 80%;
     }
-    .zerotext{
-        height: 100%;
+
+    .pImg{
         width: 90%;
+    }
+
+
+    .zerotext{
+        height: 70%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
     }
     .textdesc{
         font-size: 1.2rem;
         overflow-y: scroll;
+        padding: 20px;
+        height: 70%;
         
     }
 
@@ -222,16 +287,28 @@ hr{
         width: 90%;
     }
 
-    .four{
-        height: 120vh;
+
+    .four .right{
+        justify-content: end;
+
     }
 
     .rightwrapper{
+        padding: 10px;
+        width: 90%;
         height: 90%;
+        border-radius: 30px 0 0 30px;
+    }
+    .fourhead{
+        padding: 10px;
     }
     .fourdesc{
         overflow-y: scroll;
 
+    }
+
+    .footer{
+        height: 5%;
     }
 }
 
@@ -260,11 +337,6 @@ hr{
         height: 100%;
         width: 90%;
     }
-    .textdesc{
-        font-size: 1.2rem;
-        overflow-y: scroll;
-        
-    }
     .sectionthreeDesc{
         height: 80%;
         overflow-y: scroll;
@@ -274,9 +346,7 @@ hr{
         font-size: 1.6rem;
     }
     .rightwrapper{
-        border-radius: 0;
-        width: 90%;
-        height: 90%;
+
     }
 
 }
