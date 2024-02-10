@@ -320,6 +320,7 @@ hr{
 @media screen and (max-width: 700px) {
     .section{
         flex-direction: column;
+        height: 120vh;
     }
 
 

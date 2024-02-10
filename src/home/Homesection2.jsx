@@ -19,7 +19,7 @@ const Homesection2 = () => {
             
           </div>
         <p className="textdesc">
-        Today, i celebrate my remarkable mother on her 25th wedding anniversary. Mom, your unwavering love, strength, and grace have been the cornerstone of our family's happiness and success.
+        I celebrate my remarkable mother on her 25th wedding anniversary. Mom, your unwavering love, strength, and grace have been the cornerstone of our family's happiness and success.
         <br />
         Through the highs and lows, you have been the steady force that held us together, the heart that infused warmth into our home, and the guiding light that led us through life's journey. Your commitment to Dad and to our family has been an inspiration to us all.
         <br />

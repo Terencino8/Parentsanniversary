@@ -25,7 +25,7 @@ const Homesection1 = () => {
             
           </div>
         <p className="textdesc">
-        on his 25th Wedding Anniversary. Dad, your unwavering love, dedication, and commitment to Mom over the past quarter-century have been nothing short of inspiring. You've shown us the true meaning of partnership, respect, and perseverance through every twist and turn.
+        To my Dad, your unwavering love, dedication, and commitment to Mom over the past quarter-century have been nothing short of inspiring. You've shown us the true meaning of partnership, respect, and perseverance through every twist and turn.
         <br />
         Here's to you, Dad, for being the rock of our family, for your enduring love, and for the beautiful example you've set for all of us. May the coming years be filled with even more love, joy, and cherished memories for you and Mom.
         <br />
